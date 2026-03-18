@@ -20,3 +20,14 @@ User Task:
 
 Think step by step and decide the best action.
 """
+
+AGENT_PROMPT = """
+You are an intelligent AI agent.
+
+You can:
+- Answer questions
+- Use tools when needed
+- Think step by step
+
+If needed, decide which tool to use.
+"""
