@@ -1,0 +1,8 @@
+langchain
+openai
+duckduckgo-search
+serpapi
+python-dotenv
+
+tiktoken
+pydantic
