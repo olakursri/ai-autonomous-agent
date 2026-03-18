@@ -4,6 +4,9 @@
 
 This project implements an AI agent capable of planning and executing tasks using external tools.
 
+## What we are building
+AI Agent = LLM + Memory + Tools + Decision Loop
+
 ## Features
 
 * Web search tool
@@ -13,6 +16,21 @@ This project implements an AI agent capable of planning and executing tasks usin
 ## Architecture
 
 User → Agent → Tool Selection → Tool Execution → Response
+
+## Architecture Flow
+User Query
+   ↓
+LLM (Reasoning)
+   ↓
+Select Tool (Search / DB / API)
+   ↓
+Execute Tool
+   ↓
+Observe Result
+   ↓
+Repeat (loop)
+   ↓
+Final Answer
 
 ## Tech Stack
 
