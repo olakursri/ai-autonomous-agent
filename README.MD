@@ -7,6 +7,8 @@ This project implements an AI agent capable of planning and executing tasks usin
 ## What we are building
 AI Agent = LLM + Memory + Tools + Decision Loop
 
+![Architecture](architecture/react-agent-architecture.png)
+
 ## Features
 
 * Web search tool
